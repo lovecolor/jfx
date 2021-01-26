@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+  display: grid;
+  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  
+}
+.left{
+  /* background-color: red; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 70%;
+}
+.right{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 30%;
+  /* background-color: blue; */
+  width: 60%;
+  height: 100%;
+}
+.left-up{
+  /* background-color: blueviolet; */
+  position: absolute ;
+  top: 0px;
+  left: 0px;
+  bottom: 50%;
+  right: 0px;
+
+}
+.left-up img{
+  border: 5px solid #2570AB ;
+  border-radius: 50%;
+  position: relative;
+  top: 15%;
+  width: 70%;
+}
+.left-down{
+  /* background-color: brown; */
+  position: absolute ;
+  top: 50%;
+  left: 0px;
+  bottom: 0%;
+  right: 0px;
+
+}
+.left-down-textup{
+  font-size: 300% ;
+  font-weight: 500;
+}
+.left-down-textdown{
+  font-size: 200% ;
+  font-weight: 400;
+}
+.right-down{
+  /* background-color: red; */
+  position: absolute ;
+  top: 30%;
+  left: 0px;
+  bottom: 0%;
+  right: 0px;
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: auto auto ;
+  grid-row-gap:8%;
+  grid-column-gap:5%;
+
+}
+.box{
+  border: gray 1px solid;
+  height: 100%;
+}
+.box div{
+  background-color: gray;
+  margin: 5%;
+  height: 80%;
+  
+  /* padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%; */
+}
+.title{
+  font-size: 150%;
+  font-weight: 500;
+}
+.right-up{
+  /* background-color: brown; */
+  position: absolute ;
+  top: 0%;
+  left: 0px;
+  bottom: 70%;
+  right: 0px;
+
+}
+.right-up p{
+  font-size: 300% ;
+  font-weight:500;
+}
+.right-up hr{
+  position: relative;
+  top: -15%;
+  width: 50%;
+  height: 1%;
+  background-color: #2C85D2;
+}
+.circle-start{
+  position: relative;
+  top: -9%;
+  left: 24%;
+  border-radius: 50%;
+  background-color: #2C85D2;
+  width: 1%;
+  height: 4%;
+}
+.circle-end{
+  position: relative;
+  top: -21.5%;
+  left: 75%;
+  border-radius: 50%;
+  background-color: #2C85D2;
+  width: 1%;
+  height: 4%;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
